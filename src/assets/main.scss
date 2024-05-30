@@ -1,0 +1,30 @@
+$grey: #9ea9b7;
+$blue: #0c73fe;
+$blue-alt: #1169e6;
+$orange: #f25122;
+
+* {
+  box-sizing: border-box;
+}
+:active,
+:hover,
+:focus {
+  outline: 0;
+  outline-offset: 0;
+}
+.poppins-font {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+.container {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 8px;
+}
+
+@media screen and (max-width: 568px) {
+  .container {
+    padding: 16px;
+  }
+}
